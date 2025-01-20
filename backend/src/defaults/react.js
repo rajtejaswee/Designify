@@ -1,4 +1,4 @@
-export const basePrompt = `<boltArtifact id=\"project-import\" title=\"Project Files\"><boltAction type=\"file\" filePath=\"eslint.config.js\">import js from '@eslint/js';
+export const basePrompt = `<designifyArtifact id=\"project-import\" title=\"Project Files\"><designifyAction type=\"file\" filePath=\"eslint.config.js\">import js from '@eslint/js';
 import globals from 'globals';
 import reactHooks from 'eslint-plugin-react-hooks';
 import reactRefresh from 'eslint-plugin-react-refresh';
@@ -25,7 +25,7 @@ export default tseslint.config(
       ],
     },
   }
-);</boltAction><boltAction type=\"file\" filePath=\"index.html\"><!doctype html>
+);</designifyAction><designifyAction type=\"file\" filePath=\"index.html\"><!doctype html>
 <html lang=\"en\">
   <head>
     <meta charset=\"UTF-8\" />
@@ -38,7 +38,7 @@ export default tseslint.config(
     <script type=\"module\" src=\"/src/main.tsx\"></script>
   </body>
 </html>
-</boltAction><boltAction type=\"file\" filePath=\"package.json\">{
+</designifyAction><designifyAction type=\"file\" filePath=\"package.json\">{
   \"name\": \"vite-react-typescript-starter\",
   \"private\": true,
   \"version\": \"0.0.0\",
@@ -70,4 +70,4 @@ export default tseslint.config(
     \"typescript-eslint\": \"^8.3.0\",
     \"vite\": \"^5.4.2\"
   }
-}</boltAction></boltArtifact>`;
+}</designifyAction></designifyArtifact>`;
