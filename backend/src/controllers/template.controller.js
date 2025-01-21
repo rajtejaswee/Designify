@@ -1,6 +1,6 @@
-import { basePrompt as nodeBasePrompt } from "../prompts/node.js";
-import { BASE_PROMPT } from "../prompts/systemPrompts.js";
-import { basePrompt as reactBasePrompt } from "../prompts/react.js";
+import { basePrompt as nodeBasePrompt } from "../defaults/node.js";
+import { BASE_PROMPT } from "../defaults/systemPrompts.js";
+import { basePrompt as reactBasePrompt } from "../defaults/react.js";
 
 import { OpenAI } from "openai";
 
